@@ -1,9 +1,9 @@
-.box {
-    min-height: 50px;
+.box{
+    /* min-height: 50px; */
     padding: 5px;
     margin: 5px;
     font-weight: 800;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.945);
   }
   
   .skyblue {
@@ -17,4 +17,32 @@
   .red {
     background: indianred;
   }
-  
+#sidebar{
+    float: right;
+}  
+#main-content {
+    float: right;
+}
+
+img{
+    width: 100%
+    height: 100%
+    /* object-fit: contain; */
+}
+h1 {
+    color: white;
+}
+h2{
+    color: teal;
+}
+p{
+    color: black
+}
+.title{
+    color: teal
+}
+.wrapper{
+    align-self: start;
+    column-count: 1;
+    padding: 50px;
+}
