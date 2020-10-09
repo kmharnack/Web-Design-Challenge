@@ -29,6 +29,11 @@ img{
     height: 100%
     /* object-fit: contain; */
 }
+#img-small{
+    float: none;
+    width: 200px;
+    height: 200px;
+}
 h1 {
     color: white;
 }
@@ -36,7 +41,8 @@ h2{
     color: teal;
 }
 p{
-    color: black
+    color: black;
+    font-weight: normal;
 }
 .title{
     color: teal
